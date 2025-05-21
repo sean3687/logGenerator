@@ -9,6 +9,8 @@ yarn dev
 
 Open your browser and enter: http://localhost:3000/start
 
+
+
 ---
 
 ## What's Inside?
@@ -48,6 +50,18 @@ git clone https://github.com/your-repo/turborepo-starter.git
 cd turborepo-starter
 yarn install
 ```
+
+---
+
+📂 Setup Database
+This section is for users who have just cloned the repository and need to set up the local database. This project uses Supabase for database management, with migrations handled through the Supabase CLI. Follow these steps to get your database up and running.
+
+You can open up http://127.0.0.1:54323 to open supabase studio.
+
+DATABASE_URL=postgresql://postgres:postgres@localhost:54322/postgres
+SUPABASE_URL=http://localhost:54321
+SUPABASE_KEY=
+NODE_ENV=development
 
 ---
 

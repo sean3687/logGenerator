@@ -1,15 +1,10 @@
-# Turborepo Starter
-
-This Turborepo starter is a modern, high-performance monorepo setup, designed for building full-stack applications using Next.js and Express with TypeScript. It provides a solid foundation for rapidly developing, scaling, and maintaining projects in a unified codebase.
-
----
-
 ## Getting Started
 
-To create a new project using this template, run:
+Run following on root of project:
 
 ```bash
-npx create-turbo@latest
+yarn install
+yarn dev
 ```
 
 ---

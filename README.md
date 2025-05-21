@@ -7,6 +7,8 @@ yarn install
 yarn dev
 ```
 
+Open your browser and enter: http://localhost:3000/start
+
 ---
 
 ## What's Inside?
